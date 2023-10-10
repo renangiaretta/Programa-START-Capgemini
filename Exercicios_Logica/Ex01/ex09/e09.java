@@ -26,7 +26,7 @@ public class e09 {
             System.out.println("Quantidade inválida.");
             lScanner.nextLine();
         }
-        montant = (capital * Math.pow((1+interestRate), time));
+        montant = (capital * Math.pow((1 + interestRate), time));
         String formatedResult = toDecimal.format(montant);
         System.out.println("O valor total após 1 ano será de R$ " + (formatedResult));
     }
