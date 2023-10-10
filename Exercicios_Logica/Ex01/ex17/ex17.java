@@ -13,7 +13,7 @@ public class ex17 {
         Scanner lScanner = new Scanner(System.in);
         int quantityOnInterval = 0;
 
-        for (int i = 0; i <= 4; i++) {
+        for (int i = 0; i <= 79; i++) {
             while (true) {
                 try {
                     System.out.print("Digite um número: ");
