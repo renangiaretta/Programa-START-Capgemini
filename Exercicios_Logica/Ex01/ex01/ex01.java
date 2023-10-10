@@ -1,4 +1,4 @@
-package Exercícios_Lógica.Ex01.ex01;
+package Exercicios_Logica.Ex01.ex01;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
