@@ -3,6 +3,12 @@ package Exercicios_Logica.Ex01.ex26;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/*
+    26 - Faça um algoritmo que leia um número de 1 a 5
+    e escreva por extenso. Caso o usuário digite um número
+    que não esteja neste intervalo, exibir a seguinte
+    mensagem: número inválido;
+ */
 public class ex26 {
     public static void main(String[] args) {
         Scanner lScanner = new Scanner(System.in);

@@ -3,6 +3,11 @@ package Exercicios_Logica.Ex01.ex24;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/*
+    24 - Faça um algoritmo que receba “N” números
+    e mostre positivo, negativo ou zero para cada número;
+*/
+
 public class ex24 {
     public static void main(String[] args) {
         Scanner lScanner = new Scanner(System.in);

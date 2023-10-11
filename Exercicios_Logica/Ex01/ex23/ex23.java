@@ -8,7 +8,6 @@ package Exercicios_Logica.Ex01.ex23;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
 public class ex23 {
     public static void main(String[] args) {
         Scanner lScanner = new Scanner(System.in);

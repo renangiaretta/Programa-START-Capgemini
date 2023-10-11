@@ -5,7 +5,14 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /*
-
+    27 - A concessionária de veículos “CARANGO” está vendendo
+    os seus veículos com desconto. Faça um algoritmo que
+    calcule e exiba o valor do desconto e o valor a ser
+    pago pelo cliente. O desconto deverá ser calculado
+    sobre o valor do veículo de acordo com o combustível
+    (álcool – 25%, gasolina – 21% ou diesel –14%). Com
+    valor do veículo zero encerra entrada de dados.
+    Informe total de desconto e total pago pelos clientes;
  */
 
 public class ex27 {
@@ -17,14 +24,15 @@ public class ex27 {
         double totalPayd = 0;
         String vechileFuel = "";
         boolean validFuelChoice = false;
-        boolean closeProgram = false;
-        DecimalFormat toDecimal = new DecimalFormat("#.00");
+        DecimalFormat toDecimal = new DecimalFormat("0.00");
         int soldVechiles = 0;
 
         while (true) {
             validFuelChoice = false;
             try {
-                System.out.print("Digite o valor do veículo " + (soldVechiles + 1) + ": ");
+                System.out.print((soldVechiles + 1)
+                        + " - "
+                        + "Digite o valor do veículo (ou 0 para encerrar): ");
                 float vechilePrice = lScanner.nextFloat();
                 if (vechilePrice < 0) {
                     throw new InputMismatchException("O valor deve ser positivo.");
@@ -39,6 +47,8 @@ public class ex27 {
                         System.out.println("Foram vendidos "
                                 + soldVechiles
                                 + " veículos hoje.");
+                    } else if ((soldVechiles == 0)) {
+                        System.out.println("Não foi vendido nenhum veículo hoje.");
                     } else {
                         System.out.println("Foi vendido "
                                 + soldVechiles

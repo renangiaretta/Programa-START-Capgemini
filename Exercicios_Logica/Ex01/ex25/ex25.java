@@ -3,6 +3,14 @@ package Exercicios_Logica.Ex01.ex25;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/*
+    Faça um algoritmo que leia dois números e identifique
+    se são iguais ou diferentes. Caso eles sejam iguais
+    imprima uma mensagem dizendo que eles são iguais.
+    Caso sejam diferentes, informe qual número é o maior,
+    e uma mensagem que são diferentes;
+ */
+
 public class ex25 {
     public static void main(String[] args) {
         Scanner lScanner = new Scanner(System.in);
