@@ -1,7 +1,7 @@
 package Exercicios_Logica.Ex01.ex31;
 
 /*
-    Dados três valores A, B e C, em que A e B são números
+    31 - Dados três valores A, B e C, em que A e B são números
     reais e C é um caractere, pede-se para imprimir o
     resultado da operação de A por B se C for um símbolo
     de operador aritmético; caso contrário deve ser

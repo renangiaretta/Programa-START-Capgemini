@@ -1,7 +1,7 @@
 package Exercicios_Logica.Ex01.ex32;
 
 /*
-    Escreva um algoritmo que leia três valores inteiros
+    31 - Escreva um algoritmo que leia três valores inteiros
     e verifique se eles podem ser os lados de um triângulo.
     Se forem, informar qual o tipo de triângulo que eles
     formam: equilátero, isóscele ou escaleno. Propriedade:
